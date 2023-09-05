@@ -1,0 +1,28 @@
+#navbr {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.lnks {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.active {
+    color: blue;
+}
+
+#logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: fixed;
+    left: 0;
+    margin-left: 10px;
+}

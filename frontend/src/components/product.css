@@ -1,0 +1,47 @@
+#prodimg {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 80px;
+    align-items: center;
+
+
+}
+
+#searchbar {
+    width: 180px;
+    height: 20px;
+
+}
+
+.card {
+
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rgb(203, 203, 251);
+    border-radius: 5px;
+}
+
+
+#container {
+    margin: 40px;
+    background-color: rgb(222, 245, 245);
+    display: flex;
+
+    flex-wrap: wrap;
+    overflow: scroll;
+    height: 500px;
+
+}
+
+.card:hover {
+    background-color: bisque;
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em orange;
+}

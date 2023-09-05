@@ -1,0 +1,36 @@
+POST http://localhost:8000/register HTTP/1.1
+
+
+Content-Type: application/json
+
+{
+    "name":"Bala",
+    "email":"bala@2abc.com",
+    "password":"bala"
+}
+
+###
+GET http://localhost:8000/products/64d62a3ca8c3ebbc77ba0c22
+
+
+###
+PUT http://localhost:8000/products/64d62a88a8c3ebbc77ba0c26
+
+
+
+Content-Type: application/json
+
+{ 
+    "name": "adf", 
+    "brand": "adf", 
+    "img": "http://res.cloudinary.com/dxmrpempn/image/upload/v1691688302/dashboard/b43mtfuefsdgbkihn0hz.jpg", 
+    "price": 100, 
+    "user": "64d62a3ca8c3ebbc77ba0c22" 
+}
+
+###
+DELETE  http://localhost:8000/products/64d675f4a311ea802c61836e
+
+
+###
+GET http://localhost:8000/products/search/A
